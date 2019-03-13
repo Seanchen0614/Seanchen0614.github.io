@@ -60,8 +60,33 @@ p {
     color: yellow;
 }
 
-img {
-  float: left;
+img{
+	float: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float:left;
+	width: 40%;
+}
+
+img.pic1{
+	filter:contrast;
+	-webkit-filter: contrast;
+}
+
+img.pic1{
+	animation: myfirst1 2s forwards/infinite different/backwards;
+	-webkit-animation: myfirst1 2s forwards/infinite different/backwards;
+	width: 40%:
+}
+
+@keyframes myfirst1{
+	from {filter: invert(0%); }
+	to {filter: inver(100%); }
+}
+@-webkit-keyframes myfirst1{
+	from {filter: invert(0%); }/{ width:20%;}
+	to {filter: inver(100%); }/{ width: 100%;}
 }
 
 p.clear {
