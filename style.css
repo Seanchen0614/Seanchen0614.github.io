@@ -70,18 +70,18 @@ img{
 }
 
 img.pic1{
-	animation: animation1 2s backwards;
-	-webkit-animation: animation1 2s backwards;
+	animation: animation1 5s alternate infinite;
+	-webkit-animation: animation1 5s alternate infinite;
 	width: 40%:
 }
 
 @keyframes animation1 {
-	from {filter: invert(0%); }
-	to {filter: invert(100%); }
+	from {filter: contrast(0%); }
+	to {filter: contrast(100%); }
 }
 @-webkit-keyframes animation1 {
-	from {filter: invert(0%); }/{ width:20%;}
-	to {filter: invert(100%); }/{ width: 100%;}
+	from {filter: contrast(0%); }/{ width:20%;}
+	to {filter: contrast(100%); }/{ width: 100%;}
 }
 
 p.clear {
