@@ -75,18 +75,18 @@ img.pic1{
 }
 
 img.pic1{
-	animation: myfirst1 2s forwards/infinite different/backwards;
-	-webkit-animation: myfirst1 2s forwards/infinite different/backwards;
+	animation: pic1 2s backwards;
+	-webkit-animation: pic1 2s backwards;
 	width: 40%:
 }
 
-@keyframes myfirst1{
+@keyframes pic1{
 	from {filter: invert(0%); }
-	to {filter: inver(100%); }
+	to {filter: invert(100%); }
 }
-@-webkit-keyframes myfirst1{
+@-webkit-keyframes pic1{
 	from {filter: invert(0%); }/{ width:20%;}
-	to {filter: inver(100%); }/{ width: 100%;}
+	to {filter: invert(100%); }/{ width: 100%;}
 }
 
 p.clear {
