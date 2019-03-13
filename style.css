@@ -70,21 +70,16 @@ img{
 }
 
 img.pic1{
-	filter:contrast;
-	-webkit-filter: contrast;
-}
-
-img.pic1{
-	animation: pic1 2s backwards;
-	-webkit-animation: pic1 2s backwards;
+	animation: animation1 2s backwards;
+	-webkit-animation: animation1 2s backwards;
 	width: 40%:
 }
 
-@keyframes pic1{
+@keyframes animation1 {
 	from {filter: invert(0%); }
 	to {filter: invert(100%); }
 }
-@-webkit-keyframes pic1{
+@-webkit-keyframes animation1 {
 	from {filter: invert(0%); }/{ width:20%;}
 	to {filter: invert(100%); }/{ width: 100%;}
 }
