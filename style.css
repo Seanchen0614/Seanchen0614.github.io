@@ -76,12 +76,12 @@ img.pic1{
 }
 
 @keyframes animation1 {
-	from {filter: contrast(0%); }
-	to {filter: contrast(100%); }
+	from {filter: contrast(0%);width:20%;}
+	to {filter: contrast(100%);width:100%;}
 }
 @-webkit-keyframes animation1 {
-	from {filter: contrast(0%); }/{ width:20%;}
-	to {filter: contrast(100%); }/{ width: 100%;}
+	from {filter: contrast(0%);width:20%;}
+	to {filter: contrast(100%);width:100%;}
 }
 
 p.clear {
